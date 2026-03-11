@@ -1,0 +1,77 @@
+@font-face {
+  font-family: 'cpa-headers';
+  src: url('../font/cpa-headers.eot?94511656');
+  src: url('../font/cpa-headers.eot?94511656#iefix') format('embedded-opentype'),
+       url('../font/cpa-headers.woff2?94511656') format('woff2'),
+       url('../font/cpa-headers.woff?94511656') format('woff'),
+       url('../font/cpa-headers.ttf?94511656') format('truetype'),
+       url('../font/cpa-headers.svg?94511656#cpa-headers') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'cpa-headers';
+    src: url('../font/cpa-headers.svg?94511656#cpa-headers') format('svg');
+  }
+}
+*/
+[class^="cpa-header-"]:before, [class*=" cpa-header-"]:before {
+  font-family: "cpa-headers";
+  font-style: normal;
+  font-weight: normal;
+  speak: never;
+
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  text-align: center;
+  /* opacity: .8; */
+
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+
+
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.cpa-header-usuario:before { content: '\e800'; } /* '' */
+.cpa-header-cambiarproductos:before { content: '\e801'; } /* '' */
+.cpa-header-cambiarempresa:before { content: '\e802'; } /* '' */
+.cpa-header-cpanews:before { content: '\e803'; } /* '' */
+.cpa-header-sat:before { content: '\e804'; } /* '' */
+.cpa-header-contacto:before { content: '\e805'; } /* '' */
+.cpa-header-llaves:before { content: '\e806'; } /* '' */
+.cpa-header-tipodecambio:before { content: '\e807'; } /* '' */
+.cpa-header-tablero:before { content: '\e808'; } /* '' */
+.cpa-header-devoff:before { content: '\e809'; } /* '' */
+.cpa-header-devon:before { content: '\e80a'; } /* '' */
+.cpa-header-calendario:before { content: '\e80b'; } /* '' */
+.cpa-header-notif:before { content: '\e80c'; } /* '' */
+.cpa-header-valorar:before { content: '\e80d'; } /* '' */
+.cpa-header-capacitacion:before { content: '\e80e'; } /* '' */
+.cpa-header-manuales:before { content: '\e80f'; } /* '' */
+.cpa-header-videos:before { content: '\e810'; } /* '' */
+.cpa-header-ayuda:before { content: '\e811'; } /* '' */
+.cpa-header-log:before { content: '\e812'; } /* '' */
+.cpa-header-cerrarsesion:before { content: '\e813'; } /* '' */
+.cpa-header-funcionalidades:before { content: '\e814'; } /* '' */
+.cpa-header-funcionalidesnew:before { content: '\e815'; } /* '' */
+.cpa-header-ia:before { content: '\e816'; } /* '' */
+.cpa-header-riesgos:before { content: '\e817'; } /* '' */
+.cpa-header-onboarding:before { content: '\e818'; } /* '' */

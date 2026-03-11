@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Nombre del autor" />
+  <meta name="copyright" content="CPA Vision" />
+
+  <!-- Google Material Symbols  -->
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
+  <!-- CSS Boostrap 5.3.2  -->
+  <!-- Version Web -->
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
+  <!-- Version Servidor -->
+  <link href="./libs/bootstrap-5.3.3-dist/css/bootstrap.css" rel="stylesheet" />
+
+  <!--  CPA CSS  -->
+  <link href="./cpa-header.css" rel="stylesheet" />
+
+  <title>Ejemplo HEADER</title>
+</head>
+
+<body class="container">
+  <header class="d-flex justify-content-between align-items-center">
+    <div id="header-user" class="d-flex justify-content-start align-items-center">
+      <div class="logoCPA">
+        <img class="me-3" src="./logos-cpa/logo-facreview-h.png" alt="Logotipo FacReview" />
+      </div>
+      <div class="user-div">
+        <div class="user-title">BIENVENIDO:</div>
+        <div class="user-info">Eder Bermudez</div>
+      </div>
+    </div>
+    <div id="header-icons" class="d-flex">
+      <button type="button" data-bs-toggle="tooltip" data-bs-placement="bottom" title="CPA IA">
+        <i class="cpa-header-ia"></i>
+      </button>
+      <button type="button" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Atención a Clientes">
+        <i class="cpa-header-contacto"></i>
+      </button>
+      <button type="button" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Estatus Servicios del SAT">
+        <i class="cpa-header-sat"></i>
+      </button>
+      <button type="button" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Conoce CPA News">
+        <i class="cpa-header-cpanews"></i>
+      </button>
+
+      <div class="dropdown">
+        <button class="line-right" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <i class="cpa-header-cambiarproductos"></i>
+        </button>
+
+        <div id="user-cambiarproductos" class="dropdown-menu shadow-sm p-3">
+          <div class="row row-cols-3 g-2 m-0">
+            <div class="col text-center div-producto prod-active">
+              <a href="#" class="dropdown-item p-2 d-flex flex-column align-items-center">
+                <img src="productos-cpa/icono-facreview.png" class="img-producto mb-2" alt="FacReview" />
+                <span class="nombre-producto text-truncate d-inline-block w-100">FacReview</span>
+              </a>
+            </div>
+
+            <div class="col text-center div-producto prod-disabled">
+              <a href="#" class="dropdown-item p-2 d-flex flex-column align-items-center">
+                <img src="productos-cpa/icono-nomreview.png" class="img-producto mb-2" alt="NomReview" />
+                <span class="nombre-producto text-truncate d-inline-block w-100">NomReview</span>
+              </a>
+            </div>
+
+            <div class="col text-center div-producto prod-active">
+              <a href="#" class="dropdown-item p-2 d-flex flex-column align-items-center">
+                <img src="productos-cpa/icono-respond.png" class="img-producto mb-2" alt="Respond" />
+                <span class="nombre-producto text-truncate d-inline-block w-100">Respond</span>
+              </a>
+            </div>
+
+            <div class="col text-center div-producto prod-active">
+              <a href="#" class="dropdown-item p-2 d-flex flex-column align-items-center">
+                <img src="productos-cpa/icono-tax.png" class="img-producto mb-2" alt="CPA TAX" />
+                <span class="nombre-producto text-truncate d-inline-block w-100">CPA TAX</span>
+              </a>
+            </div>
+
+            <div class="col text-center div-producto prod-active">
+              <a href="#" class="dropdown-item p-2 d-flex flex-column align-items-center">
+                <img src="productos-cpa/icono-supply.png" class="img-producto mb-2" alt="CPA Supply" />
+                <span class="nombre-producto text-truncate d-inline-block w-100">CPA Supply</span>
+              </a>
+            </div>
+
+            <div class="col text-center div-producto prod-active">
+              <a href="#" class="dropdown-item p-2 d-flex flex-column align-items-center">
+                <img src="productos-cpa/icono-bank.png" class="img-producto mb-2" alt="CPA Bank" />
+                <span class="nombre-producto text-truncate d-inline-block w-100">CPA Bank</span>
+              </a>
+            </div>
+
+            <div class="col text-center div-producto prod-active">
+              <a href="#" class="dropdown-item p-2 d-flex flex-column align-items-center">
+                <img src="productos-cpa/icono-invoice.png" class="img-producto mb-2" alt="CPA Invoice" />
+                <span class="nombre-producto text-truncate d-inline-block w-100">CPA Invoice</span>
+              </a>
+            </div>
+
+            <div class="col text-center div-producto prod-active">
+              <a href="#" class="dropdown-item p-2 d-flex flex-column align-items-center">
+                <img src="productos-cpa/icono-risk.png" class="img-producto mb-2" alt="CPA Risk" />
+                <span class="nombre-producto text-truncate d-inline-block w-100">CPA Risk</span>
+              </a>
+            </div>
+
+            <div class="col text-center div-producto prod-active">
+              <a href="#" class="dropdown-item p-2 d-flex flex-column align-items-center">
+                <img src="productos-cpa/icono-travel.png" class="img-producto mb-2" alt="CPA Travel" />
+                <span class="nombre-producto text-truncate d-inline-block w-100">CPA Travel</span>
+              </a>
+            </div>
+
+            <div class="col text-center div-producto prod-active">
+              <a href="#" class="dropdown-item p-2 d-flex flex-column align-items-center">
+                <img src="productos-cpa/icono-convertion.png" class="img-producto mb-2" alt="CPA Conversion" />
+                <span class="nombre-producto text-truncate d-inline-block w-100">CPA Conversion</span>
+              </a>
+            </div>
+
+            <div class="col text-center div-producto prod-active prod-disabled">
+              <a href="#" class="dropdown-item p-2 d-flex flex-column align-items-center">
+                <img src="productos-cpa/icono-capital.png" class="img-producto mb-2" alt="CPA Capital" />
+                <span class="nombre-producto text-truncate d-inline-block w-100">CPA Capital</span>
+              </a>
+            </div>
+
+            <div class="col text-center div-producto prod-active prod-disabled">
+              <a href="#" class="dropdown-item p-2 d-flex flex-column align-items-center">
+                <img src="productos-cpa/icono-inbox.png" class="img-producto mb-2" alt="CPA Inbox" />
+                <span class="nombre-producto text-truncate d-inline-block w-100">CPA Inbox</span>
+              </a>
+            </div>
+
+            <div class="col text-center div-producto prod-active">
+              <a href="#" class="dropdown-item p-2 d-flex flex-column align-items-center">
+                <img src="productos-cpa/icono-cyt.png" class="img-producto mb-2" alt="CPA Customs & Trade" />
+                <span class="nombre-producto text-truncate d-inline-block w-100">CPA Customs & Trade</span>
+              </a>
+            </div>
+
+            <div class="col text-center div-producto prod-active prod-disabled">
+              <a href="#" class="dropdown-item p-2 d-flex flex-column align-items-center">
+                <img src="productos-cpa/icono-financials.png" class="img-producto mb-2" alt="CPA Financials" />
+                <span class="nombre-producto text-truncate d-inline-block w-100">CPA Financials</span>
+              </a>
+            </div>
+
+            <div class="col text-center div-producto prod-active">
+              <a href="#" class="dropdown-item p-2 d-flex flex-column align-items-center">
+                <img src="productos-cpa/icono-repse.png" class="img-producto mb-2" alt="CPA REPSE" />
+                <span class="nombre-producto text-truncate d-inline-block w-100">CPA REPSE</span>
+              </a>
+            </div>
+
+            <div class="col text-center div-producto prod-active">
+              <a href="#" class="dropdown-item p-2 d-flex flex-column align-items-center">
+                <img src="productos-cpa/icono-link.png" class="img-producto mb-2" alt="CPA Link" />
+                <span class="nombre-producto text-truncate d-inline-block w-100">CPA Link</span>
+              </a>
+            </div>
+
+            <div class="col text-center div-producto prod-active">
+              <a href="#" class="dropdown-item p-2 d-flex flex-column align-items-center">
+                <img src="productos-cpa/icono-process.png" class="img-producto mb-2" alt="CPA Process" />
+                <span class="nombre-producto text-truncate d-inline-block w-100">CPA Process</span>
+              </a>
+            </div>
+
+            <div class="col text-center div-producto prod-active">
+              <a href="#" class="dropdown-item p-2 d-flex flex-column align-items-center">
+                <img src="productos-cpa/icono-access.png" class="img-producto mb-2" alt="CPA Access" />
+                <span class="nombre-producto text-truncate d-inline-block w-100">CPA Access New</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <button type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <i class="cpa-header-usuario"></i>
+        </button>
+
+        <div id="user-menu" class="dropdown-menu shadow">
+          <p class="usuario-emp">POR SELECCIONAR</p>
+          <img class="usuario-img my-2 d-block mx-auto" src="./img-clientes/userX.png" alt="Logotipo de Empresa" />
+          <p class="usuario-nombre">Eder Bermudez</p>
+          <p class="usuario-posicion">Gerente de Operaciones</p>
+          <p class="usuario-tel">+52 5512 3456</p>
+          <p class="usuario-mail">federico.bermudez@cpavs.mx</p>
+          <p class="usuario-perfil">Perfil de Administrador</p>
+          <ul class="usuario-nav mt-2 mb-0">
+            <li>
+              <a class="dropdown-item" href="#"><i class="cpa-header-usuario"></i>Mi Perfil</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"><i class="cpa-header-calendario"></i>Calendario</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"><i class="cpa-header-notif"></i>Notificaciones</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"><i class="cpa-header-capacitacion"></i>Capacitaciones</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"><i class="cpa-header-manuales"></i>Manual de Usuario</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"><i class="cpa-header-videos"></i>Videos</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"><i class="cpa-header-ayuda"></i>Ayuda</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"><i class="cpa-header-log"></i>Registros de Actividad</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"><i class="cpa-header-cerrarsesion"></i>Cerrar Sesión</a>
+            </li>
+          </ul>
+          <div class="d-flex mt-2">
+            <p class="text-nowrap usuario-ultimo me-2">Ultimo acceso:</p>
+            <p class="usuario-acceso">
+              02 de agosto de 2024 10:18 hrs a través de Google Chrome
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- FIN HEADER -->
+
+  <main class="mt-3">
+    <div class="row">
+      <div class="col-12">
+        <h1>seleccionar EMPRESA</h1>
+      </div>
+    </div>
+
+    <section id="select-empresa" class="mt-4">
+      <div id="filtros-empresa" class="row mb-4 align-items-center justify-content-between">
+        <div class="col-md-5 d-flex align-items-center">
+          <div class="input-group">
+            <input type="text" id="inputBusqueda" class="form-control"
+              placeholder="Grupo, No. Empresa, Razón Social o RFC ...">
+            <span class="input-group-text material-symbols-outlined">search</span>
+          </div>
+        </div>
+
+        <div class="col-md-5 d-flex align-items-center">
+          <span class="me-2 label text-nowrap">Ordenar por:</span>
+          <select id="selectOrden" class="form-select">
+            <option value="nombre_asc">Nombre del Grupo: A -> Z</option>
+            <option value="nombre_desc">Nombre del Grupo: Z -> A</option>
+            <option value="id_asc">ID del Grupo: 0 -> 9</option>
+            <option value="id_desc">ID del Grupo: 9 -> 0</option>
+          </select>
+
+          <button id="btnExpandirTodo"
+            class="btn btn-outline-secondary btn-sm d-inline-flex align-items-center justify-content-center ms-2"
+            data-bs-toggle="tooltip" data-bs-placement="top" title="Expandir Todo">
+            <span class="material-symbols-outlined">expand_content</span>
+          </button>
+
+          <button id="btnContraerTodo"
+            class="btn btn-outline-secondary btn-sm d-inline-flex align-items-center justify-content-center ms-2"
+            data-bs-toggle="tooltip" data-bs-placement="top" title="Contraer Todo">
+            <span class="material-symbols-outlined">collapse_content</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="accordion" id="contenedorGrupos">
+        <div class="text-center py-5 text-muted">
+          <div class="spinner-border" role="status"></div>
+          <p>Cargando empresas...</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- JS Bootstrap bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+  </script>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+
+
+</body>
+
+</html>

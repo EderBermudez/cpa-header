@@ -1,0 +1,21 @@
+
+.cpa-header-usuario:before { content: '\e800'; } /* '' */
+.cpa-header-cambiarproductos:before { content: '\e801'; } /* '' */
+.cpa-header-cambiarempresa:before { content: '\e802'; } /* '' */
+.cpa-header-cpanews:before { content: '\e803'; } /* '' */
+.cpa-header-sat:before { content: '\e804'; } /* '' */
+.cpa-header-contacto:before { content: '\e805'; } /* '' */
+.cpa-header-llaves:before { content: '\e806'; } /* '' */
+.cpa-header-tipodecambio:before { content: '\e807'; } /* '' */
+.cpa-header-tablero:before { content: '\e808'; } /* '' */
+.cpa-header-devoff:before { content: '\e809'; } /* '' */
+.cpa-header-devon:before { content: '\e80a'; } /* '' */
+.cpa-header-calendario:before { content: '\e80b'; } /* '' */
+.cpa-header-notif:before { content: '\e80c'; } /* '' */
+.cpa-header-valorar:before { content: '\e80d'; } /* '' */
+.cpa-header-capacitacion:before { content: '\e80e'; } /* '' */
+.cpa-header-manuales:before { content: '\e80f'; } /* '' */
+.cpa-header-videos:before { content: '\e810'; } /* '' */
+.cpa-header-ayuda:before { content: '\e811'; } /* '' */
+.cpa-header-log:before { content: '\e812'; } /* '' */
+.cpa-header-cerrarsesion:before { content: '\e813'; } /* '' */

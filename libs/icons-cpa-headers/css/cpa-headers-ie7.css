@@ -1,0 +1,32 @@
+[class^="cpa-"], [class*=" cpa-"] {
+  font-family: 'cpa-headers';
+  font-style: normal;
+  font-weight: normal;
+
+  /* fix buttons height */
+  line-height: 1em;
+
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+}
+
+.cpa-header-usuario { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe800;&nbsp;'); }
+.cpa-header-cambiarproductos { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe801;&nbsp;'); }
+.cpa-header-cambiarempresa { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe802;&nbsp;'); }
+.cpa-header-cpanews { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe803;&nbsp;'); }
+.cpa-header-sat { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe804;&nbsp;'); }
+.cpa-header-contacto { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe805;&nbsp;'); }
+.cpa-header-llaves { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe806;&nbsp;'); }
+.cpa-header-tipodecambio { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe807;&nbsp;'); }
+.cpa-header-tablero { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe808;&nbsp;'); }
+.cpa-header-devoff { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe809;&nbsp;'); }
+.cpa-header-devon { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe80a;&nbsp;'); }
+.cpa-header-calendario { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe80b;&nbsp;'); }
+.cpa-header-notif { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe80c;&nbsp;'); }
+.cpa-header-valorar { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe80d;&nbsp;'); }
+.cpa-header-capacitacion { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe80e;&nbsp;'); }
+.cpa-header-manuales { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe80f;&nbsp;'); }
+.cpa-header-videos { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe810;&nbsp;'); }
+.cpa-header-ayuda { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe811;&nbsp;'); }
+.cpa-header-log { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe812;&nbsp;'); }
+.cpa-header-cerrarsesion { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe813;&nbsp;'); }

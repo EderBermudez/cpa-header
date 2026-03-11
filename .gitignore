@@ -1,0 +1,4 @@
+scss/
+*.zip
+.vscode/
+node_modules/
