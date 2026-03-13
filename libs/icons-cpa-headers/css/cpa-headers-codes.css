@@ -19,3 +19,8 @@
 .cpa-header-ayuda:before { content: '\e811'; } /* '' */
 .cpa-header-log:before { content: '\e812'; } /* '' */
 .cpa-header-cerrarsesion:before { content: '\e813'; } /* '' */
+.cpa-header-funcionalidades:before { content: '\e814'; } /* '' */
+.cpa-header-funcionalidesnew:before { content: '\e815'; } /* '' */
+.cpa-header-ia:before { content: '\e816'; } /* '' */
+.cpa-header-riesgos:before { content: '\e817'; } /* '' */
+.cpa-header-onboarding:before { content: '\e818'; } /* '' */
